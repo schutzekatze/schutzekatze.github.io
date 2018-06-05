@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Vladimir N. - General</title><link href="https://vladimirn.net/" rel="alternate"></link><link href="https://vladimirn.net/feeds/general.atom.xml" rel="self"></link><id>https://vladimirn.net/</id><updated>2018-06-01T21:27:00+02:00</updated><entry><title>Introduction</title><link href="https://vladimirn.net/introduction.html" rel="alternate"></link><published>2018-06-01T21:27:00+02:00</published><updated>2018-06-01T21:27:00+02:00</updated><author><name>Vladimir</name></author><id>tag:vladimirn.net,2018-06-01:/introduction.html</id><summary type="html">&lt;p&gt;Welcome reader.&lt;/p&gt;
+&lt;p&gt;Test.&lt;/p&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Welcome reader.&lt;/p&gt;
+&lt;p&gt;Test.&lt;/p&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;</content><category term="meta"></category></entry></feed>
