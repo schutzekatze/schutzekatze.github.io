@@ -1,0 +1,69 @@
+@font-face
+{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Roboto;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:active, a:focus, a:hover {
+   text-decoration: none;
+   color: #FFFFFF;
+   outline: 0;
+}
+
+.header a:link, .header a:visited, .header a:active, .header a:focus {
+   text-decoration: none;
+   color: #AAAAAA;
+   outline: 0;
+   -webkit-transition: color 0.1s;
+   transition: color 0.1s;
+}
+
+.header a:hover {
+    color: #FFFFFF;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.header {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    height: 34px;
+    line-height: 29px;
+}
+
+.content {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 10px 0px 40px 0px;
+    padding: 0px 30px 20px 30px;
+    min-height: 400px;
+}
+
+.sky {
+    position: fixed;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - {{ article.title }}{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    {% if article.description %}
+    <meta name="description" content="{{ article.description }}" />
+    {% endif %}
+
+    {% for tag in article.tags %}
+    <meta name="tags" content="{{ tag }}" />
+    {% endfor %}
+{% endblock %}
+
+{% block content %}
+    <div class="title">{{ article.title }}</div>
+    <div class="title-spacing"></div>
+    <div class="body-text">{{ article.content }}</div>
+{% endblock %}

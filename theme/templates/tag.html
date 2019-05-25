@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Tag {{ tag }}{% endblock %}
+
+{% block content %}
+    <div class="title">Tag {{ tag }}</div>
+    <div class="title-spacing"></div>
+    <ul>
+    {% for article in articles %}
+        <li><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+               title="Permalink to {{ article.title|striptags }}">{{ article.title }}
+           </a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
