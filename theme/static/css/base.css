@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: Roboto;
-    background-image: url("../images/bg.png");
+    background-image: url("../images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ a:link, a:visited, a:active, a:focus, a:hover {
 
 .header a:link, .header a:visited, .header a:active, .header a:focus {
    text-decoration: none;
-   color: #AAAAAA;
+   color: #BBBBBB;
    outline: 0;
    -webkit-transition: color 0.1s;
    transition: color 0.1s;

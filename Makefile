@@ -79,4 +79,4 @@ github: publish
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 
-.PHONY: html help clean regenerate serve serve-global devserver stopserver publish github
+.PHONY: html help clean regenerate serve serve-global devserver publish github
